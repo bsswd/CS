@@ -1,0 +1,17 @@
+GET http://localhost:5043/games
+
+###
+
+GET http://localhost:5043/games/4
+
+###
+
+POST http://localhost:5043/games
+Content-Type: application/json
+
+{
+  "name": "Calypso Reborn",
+  "genre": "Adventure RPG",
+  "price": 59.99,
+  "releaseDate": "2027-11-15"
+}
