@@ -45,12 +45,12 @@ public static class GamesEndpoints
         //POST /games
         group.MapPost("/", (CreateGameDto newGame) =>
         {
-        GameDto game = new(
-        games.Count + 1,
-        newGame.Name,
-        newGame.Genre,
-        newGame.Price,
-        newGame.ReleaseDate
+            GameDto game = new(
+            games.Count + 1,
+            newGame.Name,
+            newGame.Genre,
+            newGame.Price,
+            newGame.ReleaseDate
         );
 
         games.Add(game);
