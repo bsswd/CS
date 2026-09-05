@@ -1,11 +1,9 @@
 GET http://localhost:5043/games
 
 ###
-
-GET http://localhost:5043/games/4
+GET http://localhost:5043/games/1
 
 ###
-
 POST http://localhost:5043/games
 Content-Type: application/json
 
@@ -15,3 +13,17 @@ Content-Type: application/json
   "price": 59.99,
   "releaseDate": "2027-11-15"
 }
+
+###
+PUT http://localhost:5043/games/1
+Content-Type: application/json
+
+{
+  "name": "Calypso Reborn",
+  "genre": "Adventure RPG",
+  "price": 59.99,
+  "releaseDate": "2027-11-15"
+}
+
+###
+DELETE http://localhost:5043/games/2
