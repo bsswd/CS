@@ -8,10 +8,10 @@ POST http://localhost:5043/games
 Content-Type: application/json
 
 {
-  "name": "Calypso Reborn",
-  "genre": "Adventure RPG",
-  "price": 59.99,
-  "releaseDate": "2027-11-15"
+  "name": "Ton",
+  "genreId": 1,
+  "price": 29.99,
+  "releaseDate": "2026-11-15"
 }
 
 ###
